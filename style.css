@@ -26,3 +26,33 @@ li {
   min-height: 100%;
   background-color: rgb(192, 236, 236);
 }
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  background: rgb(26, 10, 57);
+  font-size: 40px;
+  color: white;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex: 1;
+  padding: 40px 50px;
+  font-size: 28px;
+  color: rgb(10, 10, 56);
+}
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  background: rgb(43, 31, 68);
+  font-size: 30px;
+  color: white;
+}
